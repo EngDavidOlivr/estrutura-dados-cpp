@@ -1,41 +1,31 @@
-# Prerequisites
-*.d
 
-# Compiled Object files
-*.slo
-*.lo
+---
+
+##  .gitignore
+
+```gitignore
+# Compilados C++
+*.out
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
+*.exe
+*.dll
 *.so
 *.dylib
-*.dll
 
-# Fortran module files
-*.mod
-*.smod
+# Arquivos temporários
+*.log
+*.tmp
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Diretórios de build/output
+build/
+dist/
+bin/
 
-# Executables
-*.exe
-*.out
-*.app
+# Configurações de IDE/Editor
+.vscode/
+*.code-workspace
 
-# debug information files
-*.dwo
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
